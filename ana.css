@@ -1,1 +1,6 @@
-
+body {
+    background-image: url(images/CutePlaty.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
