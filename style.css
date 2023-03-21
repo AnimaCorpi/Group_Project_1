@@ -1,0 +1,25 @@
+
+body{ 
+      background-color: rgb(144, 173, 157);
+      font-size: 25px;  
+      color: aliceblue;  
+
+
+
+}
+
+h1 {
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 100% larger;
+    color: rgb(58, 20, 2);
+    font-family: 'Josefin Sans', sans-serif; 
+
+}
+
+.text-center {
+text-align: center;
+}
+
+    
+    
