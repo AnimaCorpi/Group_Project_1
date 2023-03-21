@@ -1,53 +1,40 @@
 
 body{ 
-      font-size: 30px; 
-      font-family: 'Work Sans', sans-serif;
-      color: rgb(13, 25, 43);  
-      background-image:url("/GImages/Playtapus.png");  
+      font-size: 24px; 
+      font-family: 'Times New Roman', Times, serif;
+      color: white; 
+      background-image:url(/GImages/Playtapus.png);  
 }
 
 h1 {
     letter-spacing: 3px;
     text-align: center;
     font-size: 25px larger;
-    color: rgb(16, 38, 59);
-    font-family: 'Josefin Sans', sans-serif; 
-
+    color: yellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
-
-.text-center {
-text-align: center;
-}
- h2 {
-
-
- }
-
 
 #div {
     display: flex;
     justify-content: center;
-  }
-  
-  #table {
-    align-self: center;
-  }
 
-table {
+}
+
+#table {
+    align-self: center;
     border-collapse: seperate;
-    border-width: 100%;
-    border:4px solid rgb(175, 72, 24);
+    border-width: justify;
+    border:4px solid black;
     letter-spacing: 1px;
     font-size: 25px;
-    
 }
 
 td, th {
-    border: 15px rgb(32, 34, 24);
+    border: 25px rgb(32, 34, 24);
 }
 
 th {
-    background-color: color rgb(112, 151, 94);
+    background-color: color blue;
 }
 
 td {
@@ -55,12 +42,15 @@ td {
 }
 
 tr:nth-child(even) td{
-    background-color: rgb(196, 167, 72);
-    font-style: italic;
+    background-color: rgb(194, 151, 10);
+    font-style: normal;
 }
 
 tr:nth-child(odd) td {
-    background-color: rgb(184, 160, 160);
+    background-color: rgb(206, 126, 21);
 }
-    
-    
+
+caption{
+    padding: 40px;
+}
+
