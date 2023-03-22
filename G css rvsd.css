@@ -1,18 +1,94 @@
+/*element.style {
+
+}
+
+
+html [Attribute Style] {
+ -weblit-locale "en";
+} */
+ 
+html {
+    font-size: 10px;
+    background-image:url(/GImages/Plat\ 3.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+
 
 body{ 
-      font-size: 24px; 
-      font-family: 'Times New Roman', Times, serif;
-      color: white; 
-      background-image:url(/GImages/Playtapus.png);  
+      display: block;
+      margin: 8px;
+      font-size: 2rem; 
+      font-family: 'Helvetica, Arial, sans-serif;
+      
+    }
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color: yellow;
+    text-shadow: 2px, 2px, 2px black, 3px 3px 2px black;
 }
 
 h1 {
-    letter-spacing: 3px;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 2px black, 3px 3px 2px black;
     text-align: center;
-    font-size: 25px larger;
-    color: yellow;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    letter-spacing: 2px;
 }
+
+
+h1 + p {
+
+    font-weight: bold;
+    color: yellow;
+    text-shadow: 2px 2px 2px black, 3px 3px 2px black;
+}
+
+p::first-line {
+    letter-spacing: 4px;
+    word-spacing: 4px;
+}
+
+
+p {
+    font-size: 2.0rem;
+    font-weight: bold;
+    color: yellow;
+    font-style: Arial;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black, 3px 3px 2px black;
+}
+
+
+
+img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    min-height: fit-content;
+    border-width: 5px;
+    border-color: yellow;
+    border-style: dashed;
+   
+}   
+
+.links {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    color:yellow;
+    
+}
+
+
+
 
 #div {
     display: flex;
@@ -30,11 +106,11 @@ h1 {
 }
 
 td, th {
-    border: 25px rgb(32, 34, 24);
+    border: 25px red;
 }
 
 th {
-    background-color: color blue;
+    background-color: color tan;
 }
 
 td {
@@ -54,3 +130,14 @@ caption{
     padding: 40px;
 }
 
+.radio {
+    display: flex
+}
+
+.radio > div {
+    width: 100px;
+    height: 100px;
+    margin: 40px;
+
+
+}
