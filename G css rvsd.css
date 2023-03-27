@@ -9,20 +9,24 @@ html [Attribute Style] {
  
 html {
     font-size: 10px;
-    background-image:url(/https://r.search.yahoo.com/_ylt=AwrFfbUfEiJkWqYTqENXNyoA;_ylu=Y29sbwNiZjEEcG9zAzUEdnRpZAMEc2VjA3Ny/RV=2/RE=1679983264/RO=10/RU=https%3a%2f%2fwwf.ca%2fstories%2ffour-new-species-for-adoption%2f/RK=2/RS=IYelVWiBB0vfLDTdlJWFennlXg0-);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
+    
+    
 }
 
 
 
 body{ 
+    background-image:url(/GImages/Teenage\ Plat.png);
+
+
+
       display: block;
       margin: 8px;
       font-size: 2rem; 
-      font-family: 'Helvetica, Arial, sans-serif;
-      
+      font-family: Helvetica, Arial, sans-serif;
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
     }
 
 h1 {
